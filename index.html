@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="header-center">
+            <header>
+             <div class="header-con">
+                <div class="header1">
+                    <a class="text-header1" href="/index.html">Главная</a>
+                    <a class="text-header1" href="/o_kompanii.html">О компании</a>
+                    <a class="text-header1" href="/akcii.html">Акции</a>
+                    <a class="text-header1" href="/voprosi.html">Вопросы и ответы</a>
+                    <div class="container">
+                        <img src="/reg_png.png" alt="Click to login" class="clickable-image" id="loginImage">
+                    </div>
+                    <div id="loginModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <form action="#">
+                                <h2>Вход в аккаунт</h2>
+                                <p>Рады будем увидеть вас снова</p>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Напишите свой email" required>
+                                <label for="password">Пароль</label>
+                                <input type="password" id="password" name="password" placeholder="Напишите свой пароль" required>
+                                <button type="submit">Войти в аккаунт</button>
+                                <p><a href="#">Новый пользователь?</a> | <a href="#">Создайте аккаунт</a></p>
+                                <p><a href="#">Забыли пароль?</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                 <div class="header2-con">
+                <div class="header2">
+                    <div class="logo">
+                        <img class="img-logo" src="/logo.png" alt="">
+                    </div>
+                    <div class="social-con">
+                        <div class="social">
+                            <p class="text-social">Наши социальные сети</p>
+                            <div class="social-icons1">
+                                <a href="https://www.facebook.com/?locale=ru_RU"><img src="facebook.png" alt="Facebook"></a>
+                                <a href="https://twitter.com/?lang=ru"><img src="tweet.png" alt="Twitter"></a>
+                                <a href="https://www.instagram.com/"><img src="inst.png" alt="Instagram"></a>
+                                <a href="https://vk.com/grxvvv"><img src="vk.png" alt="VK"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="number">
+                        <p class="cifri">+7 (111) 111-11-11 <img class="tg" src="/fgs16_telegram-cl-bg 1.png" alt=""></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </header>
+        <section class="section1">
+        
+           
+        <div class="con-offers">
+            <div class="offers">
+                <p class="text-offers">Наши предложения</p>
+            </div>
+        </div> 
+        <div class="centre-back">
+            <div class="cards-con">
+            <div class="cards">
+            <div class="card">
+                <img src="/20.png.png" alt="Городская">
+                <div class="content">
+                    <h3>Городская</h3>
+                    <ul>
+                        <li>Квартиры <span>24</span></li>
+                        <li>Апартаменты <span>7</span></li>
+                        <li>Аренда <span>11</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Container.png" alt="Коммерческая">
+                <div class="content">
+                    <h3>Коммерческая</h3>
+                    <ul>
+                        <li>Склад <span>3</span></li>
+                        <li>Офис <span>3</span></li>
+                        <li>Торговая площадь <span>3</span></li>
+                        <li>Гараж или машиноместо <span>5</span></li>
+                        <li>Аренда <span>8</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/zagorod.png" alt="Загородная">
+                <div class="content">
+                    <h3>Загородная</h3>
+                    <ul>
+                        <li>Дом <span>3</span></li>
+                        <li>Участок <span>3</span></li>
+                        <li>Таунхаус <span>3</span></li>
+                        <li>Коттеджи <span>2</span></li>
+                        <li>Аренда <span>9</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/Link.png" alt="Новостройки">
+                <div class="content">
+                    <h3>Новостройки</h3>
+                    <ul>
+                        <li>Эконом-класс <span>2</span></li>
+                        <li>Бизнес-класс <span>3</span></li>
+                        <li>Квартиры в ЖК <span>15</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="block-to-center">
+            <div class="form-container">
+            <h2>Поможем в подборе недвижимости</h2>
+            <p>Оставьте контакты и мы подберем вариант, который 100% подойдет!</p>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="tel" name="phone" placeholder="Введите телефон *" required>
+                <select name="propertyType" required>
+                    <option value="">Вид недвижимости</option>
+                    <option value="apartment">Квартира</option>
+                    <option value="house">Дом</option>
+                    <option value="office">Офис</option>
+                </select>
+                <button type="submit">Подобрать</button>
+            </form>
+            <div class="thank-you-message" id="thankYouMessage">Спасибо за обращение!</div>
+        </div>
+        </div>
+        <div class="akcii">
+            <div class="text-con">
+            <h2 class="text-ak">Уютные квартиры со скидкой 10%</h2>
+            <p class="text-ak">Спешите стать владельцем квартиры в новом районе с развитой инфраструктурой. Количество предложений ограничено!</p>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="con-c">
+            <div class="text-conten">
+            <div class="text">
+                <h2 class="h2-s3">Купить квартиру с помощью агентства недвижимости</h2>
+                <p class="text-s3">Наше агентство - одна из крупнейших риэлторских компаний города. Вот уже более 15 лет мы ведем свою деятельность в данной сфере.</p>
+                <p class="text-s3">Поиск квартиры или комнаты для покупки или аренды - занятие обременительное и весьма и весьма хлопотное, как и операции обратные - по сдаче или продаже жилья. Далеко не все риэлторы работают честно, не говоря уже о количестве мошенников и аферистов в данной сфере.</p>
+                <p class="text-s3">По всем вышеперечисленным вопросам Вы можете обратиться к нам - мы предоставляем весь комплекс услуг по сопровождению операций купли-продажи, обмена или аренды жилых помещений.</p>
+                <p class="text-s3">Мы не первый год работаем с недвижимостью и давно зарекомендовали себя в качестве одного из лучших агентств. Ярким свидетельством качества работы наших риэлторов являются отзывы благодарных клиентов, которые мы разместили на нашем сайте. Мы зарекомендовали себя как достойные и безупречные партнеры, способные решать самые сложные вопросы.</p>
+            </div>
+        </div>
+        </div>
+        <div class="con-c1">
+               <div class="text-conten2">
+            <div class="text2">
+                <p class="text-s32">Наша компания заработала репутацию достойного и безупречного партнера, способного решать самые сложные вопросы. Ярким свидетельством качества нашей работы являются отзывы благодарных клиентов, которы мы разместили на сайте.</p>
+                <p class="text-s32">Каждый день сотни людей находятся в поисках: квартиры, комнаты, арендаторов или покупателей - многих из них Вы можете найти в моей базе и при моем посредничестве произвести любую сделку.</p>
+                <p class="text-s32">- Владельцам крупных компаний подберем офисные помещения размером от 1000 квадратных метров в любом районе города. <br> - Для небольших организаций имеются офисы площадью менее 50 квадратных метров.</p>
+                <p class="text-s32">Мы всегда идем навстречу клиенту и предлагаем массу вариантов в разных ценовых диапазонах, в разных районах города и при разных условиях.</p>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="fl">
+                      <img class="logo2" src="logo.png" alt="City Estate Logo">
+                </div>
+                <p class="tf">&copy; 2018 - 2024 cityestate.com</p>
+            </div>
+            <div class="footer-middle">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Вопросы и ответы</a></li>
+                    <li><a href="#">Войти в аккаунт</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/?locale=ru_RU"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/?lang=ru"><img src="tweet.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="inst.png" alt="Instagram"></a>
+                <a href="https://vk.com/grxvvv"><img src="vk.png" alt="VK"></a>
+            </div>
+            <div class="footer-right">
+                <div class="contact-info">
+                    <p>+7 (111) 111-11-11</p>
+                    <div class="rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <p id="thank-you-message" style="display: none;">Спасибо за отзыв!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
